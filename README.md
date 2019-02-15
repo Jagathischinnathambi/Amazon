@@ -52,7 +52,7 @@ public class NewTest {
 	  driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
 //	  Sending the username of the Application to the application
 	  WebElement username = driver.findElement(By.xpath("//*[@name='email']"));
-	  username.sendKeys("7826946558");
+	  username.sendKeys("username");
 	  driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 //	  Clicking the continue button using WebElement
 	  WebElement con_button = driver.findElement(By.xpath("//*[@id='continue']"));
@@ -60,7 +60,7 @@ public class NewTest {
 	  driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 //	  Sending the Password of the Application to the application
 	  WebElement pass =driver.findElement(By.xpath("//*[@id='ap_password']"));
-	  pass.sendKeys("qwertyuiop");
+	  pass.sendKeys("password");
 //	  Clicking the Application Login button Using WebElement
 	  WebElement Log_button = driver.findElement(By.xpath("//*[@id='signInSubmit']"));
 	  Log_button.click();
