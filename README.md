@@ -34,7 +34,7 @@ public class NewTest {
 	  String base = driver.getCurrentUrl();
 	  System.out.println(base);
 //	Actual url of the Application
-	  String actual = "https://www.amazon.com/";
+	  String actual = "https://www.amazon.in/";
 	  System.out.println(actual);
 //	checking the url of the application is matched by the current window 
 	  if(base.equals(actual))
